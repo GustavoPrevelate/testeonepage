@@ -13,6 +13,7 @@ div.personagens_nanatsu{
     font-family: Deutsch Gothic;
 }
 .personagens_titulo{
+    position: absolute;
     color: var(--primary-color);
     text-shadow: 
     -2px -3px 2px #000000, 
@@ -21,7 +22,7 @@ div.personagens_nanatsu{
     4px 0px 2px #000000;
     font-size: 240px;
     padding-left: 420px;
-    transform: translate(0%, -410%);
+    
 }
 
 

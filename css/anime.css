@@ -1,13 +1,25 @@
 .Anime{
-    height: 825px;
+    height: 900px;
     width: 100%;
     background-color: blue;
     background-image: url(../img/footer.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .AnimeNanatsu{
-    height: 825px;
+    width: 2080px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-top: 70px;
+    
+    justify-content: center;
 }
 .anime_titulo{
+    
     color: var(--primary-color);
     text-shadow: 
     -2px -3px 2px #000000, 
@@ -15,21 +27,18 @@
     3px -3px 2px #000000,    
     4px 0px 2px #000000;
     font-size: 200px;
-    padding-left: 700px;
-    padding-top: 40px;
+    
     font-family: Deutsch Gothic;
 }
 .onde_assistir{
-    transform: translate(70%, 20%);
+    
     background-color: #252525;
-    height: 400px;
-    width: 500px;
+    
 }
 .contato{
-    transform: translate(210%, -80%);
+    
     background-color: #252525;
-    height: 400px;
-    width: 500px;
+    
 }
 .onde_assistir_title{
     border-bottom-style: solid;
@@ -44,6 +53,7 @@
     font-family: Deutsch Gothic;
     padding-left: 60px;
     padding-top: 20px;
+    width: 540px;
 }
 .Crunchyroll{
     
@@ -90,6 +100,7 @@ padding-top: 40px;
     font-family: Deutsch Gothic;
     padding-left: 80px;
     padding-top: 20px;
+    width: 540px;
 }
 .numero{
     color: #ffffff;

@@ -1,15 +1,30 @@
 .História{
     height: 1080px;
     width: 100%;
-}
-.HistoriaNanatsu{
-    height: 1080px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
     background-image: url(../img/historia.jpg);
     font-family: Deutsch Gothic;
-    
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.HistoriaNanatsu{
+    width: 1280px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-top: 100px;
+}
+.texto_historia{
+    background-color: #252525c0;
+    display: flex;
+    flex-direction: column;
 }
 .historia_titulo{
+    
     color: var(--primary-color);
     text-shadow: 
     -2px -3px 2px #000000, 
@@ -17,14 +32,15 @@
     3px -3px 2px #000000,    
     4px 0px 2px #000000;
     font-size: 240px;
-    padding-left: 620px;
+    
+}
+div.quem-sao{
+    background-color: #252525c0;
 }
 .o_que_aconteceu{
-    transform: translate(45%, 10%);
-    display: flex;
-    height: 600px;
-    width: 600px;
-    background-color: #252525c0;
+    
+
+    
     color: #42FF00;
     text-shadow: 
     -2px -3px 2px #000000, 
@@ -33,15 +49,11 @@
      4px 0px 2px #000000;
     font-size: 4rem;
     font-family: Deutsch Gothic;
-    padding-top: 16px;
-    padding-left: 48px;  
+     
     
 }
 .description__text2{
-    transform: translate(60%, -85%);
-    display: flex;
-    height: 500px;
-    width: 500px;
+    
     color: #ffffff;
     text-shadow: 
     -2px -3px 2px #000000, 
@@ -52,11 +64,9 @@
     font-family: 'Montserrat', sans-serif;   
 }
 .quem_sao{
-    transform: translate(180%, -173%);
-    display: flex;
-    height: 600px;
-    width: 600px;
-    background-color: #252525c0;
+    
+    
+    
     color: #7000FF;
     text-shadow: 
     -2px -3px 2px #000000, 
@@ -65,14 +75,11 @@
      4px 0px 2px #000000;
     font-size: 4rem;
     font-family: Deutsch Gothic;
-    padding-top: 16px;
-    padding-left: 48px;  
+      
 }
 .description__text3{
-    transform: translate(220%, -305%);
-    display: flex;
-    height: 500px;
-    width: 500px;
+    
+
     color: #ffffff;
     text-shadow: 
     -2px -3px 2px #000000, 
