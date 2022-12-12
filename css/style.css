@@ -1,0 +1,337 @@
+:root{
+    --primary-color: #FF8A00;
+    --secundary-color: #FF0000;
+    --icon-color: #242424;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: grid;
+    grid-template-areas: "content";
+    background-color: #252525;
+}
+section{
+    height: 100vh;
+}
+header{
+    position: fixed;
+    grid-area: content;
+    z-index: 10;
+    height: 165px;
+    width:100%;
+    font-family: Deutsch Gothic;
+    text-shadow: 
+               -2px -3px 2px #000000, 
+               -2px 3px 2px #000000,      
+                3px -3px 2px #000000,    
+                4px 0px 2px #000000;
+    display: flex;
+    background-color: #101010c0;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li.bars{
+    visibility: hidden;
+}
+main{
+    grid-area: content;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    grid-area: content;
+    height: 138px;
+    width:100%;
+    background-color: #252525;
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 32px;
+    place-self: end center;
+    padding-left: 550px;
+    padding-top: 50px;
+    display: flex ;
+}
+
+
+@font-face{
+    font-family: [Deutsch Gothic];
+    src: url(../deutsch_gothic/Deutsch.ttf);
+}
+/* CELULAR*/
+@media (max-width: 640px){
+    header{
+        
+        padding-right: 300px;
+        width: 640px;
+        left: 0vh;
+        justify-content: space-around;
+    }
+    ul.menu{
+        display: none;
+    }
+    li.bars{
+        
+        padding-left: 200px;
+        font-weight: 100px;
+        font-size: 100px;
+        visibility: visible;
+        color: var(--primary-color);
+        text-shadow: 
+        -4px -6px 4px #000000, 
+        -4px 6px 4px #000000,      
+        6px -6px 4px #000000,    
+        8px 0px 4px #000000;
+    }
+    .logo{
+        justify-content: space-around;
+    }
+    i.fas.fa-bars{
+        height: 100px;
+        width: 100px;
+    }
+    section#NanatsuNoTaizai.NanatsuNoTaizai{
+        height: 1080px;
+        transform: translate(-100%, 0%);
+        width: 640px;
+    }
+    
+    h1.the_seven_titulo{
+        transform: translate(0%, 50%);
+        height: 640px;
+        width: 640px;
+        
+    }
+    p.description__text{
+        transform: translate(10%, -35%);
+        height: 540px;
+        width: 540px;
+        font-size: 2.5rem;  
+    }
+    section.História{
+        height: 1080px;
+        width: 100%;
+    }
+    div.HistoriaNanatsu{
+        height: 1080px;
+        width:  640px;
+        
+        
+    }
+    h1.historia_titulo{
+        transform: translate(-45%, 0%);
+        padding-right: 620px;
+        font-size: 10rem;
+    }
+    h2.o_que_aconteceu{
+        transform: translate(0%, 0%);
+        height: 400px;
+        width: 640px;
+        font-size: 4rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    p.description__text2{
+        transform: translate(5%, -100%);
+        height: 300px;
+        width: 540px;
+        font-size: 1.6rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    h2.quem_sao{
+        transform: translate(0%, -70%);
+        height: 400px;
+        width: 640px;
+        font-size: 6rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    p.description__text3{
+        transform: translate(5%, -180%);
+        height: 300px;
+        width: 540px;
+        font-size: 1.5rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    section.Personagens{
+        height: 900px;
+        
+    }
+    h1.personagens_titulo{
+        transform: translate(-20%, -620%);
+        font-size: 8rem;
+    }
+    div.personagens_nanatsu{
+        height: 900px;
+        width: 640px;
+    }
+    video.video_nanatsu{
+        height: 900px;
+        width: 640px;
+    }
+    section.TheSevenDeadly{
+        height: 3520px;
+        transform: translate(-100%, -0%);
+    }
+    h1.TheSevenDeadlySins{
+        font-size: 4rem;
+        padding-left: 8px;
+    }
+    div.TheSevenDeadly_nanatsu{
+        height: 3520px;
+        
+    }
+    div.blocos{
+        
+        flex-direction: column;
+        display: grid;
+        grid-template-rows: auto 1fr ;
+        grid-template-columns: 1fr;
+        
+        width: 640px;
+        
+    }
+    div.Meliodas{
+        height: 440px;
+        width: 640px;
+    }
+    h1.meliodas_title{
+        
+        font-size: 5rem;
+    }
+    p.ira{
+        font-size: 3rem;
+    }
+    div.King{
+        height: 440px;
+        width: 640px;
+    }
+    h1.King_title{
+        
+        font-size: 5rem;
+    }
+    p.preguica{
+        font-size: 3rem;
+    }
+    div.Ban{
+        height: 440px;
+        width: 640px;
+    }
+    h1.Ban_title{
+        
+        font-size: 5rem;
+    }
+    p.ganancia{
+        font-size: 2.6rem;
+    }
+    div.Gowther{
+        height: 440px;
+        width: 640px;
+    }
+    h1.Gowther_title{
+        
+        font-size: 5rem;
+    }
+    p.luxuria{
+        font-size: 3rem;
+    }
+    div.Elizabeth{
+        height: 440px;
+        width: 640px;
+    }
+    h1.Elizabeth_title{
+        
+        font-size: 5rem;
+    }
+    p.divina{
+        font-size: 3rem;
+    }
+    div.Diane{
+        height: 440px;
+        width: 640px;
+    }
+    h1.Diane_title{
+        
+        font-size: 5rem;
+    }
+    p.inveja{
+        font-size: 2.6rem;
+    }
+    div.Escanor{
+        height: 440px;
+        width: 640px;
+    }
+    h1.Escanor_title{
+        
+        font-size: 5rem;
+    }
+    p.orgulho{
+        font-size: 3rem;
+    }
+    div.Merlim{
+        height: 440px;
+        width: 640px;
+    }
+    h1.Merlim_title{
+        
+        font-size: 5rem;
+    }
+    p.gula{
+        font-size: 3rem;
+    }
+    section#Anime.Anime{
+        background-color: #252525;
+        height: 1080px;
+        width: 640px;
+        transform: translate(-100%, 13%); 
+        
+    }
+    h1.anime_titulo{
+        padding-left: 50px;
+        font-size: 7rem;
+    }
+    div.onde_assistir{
+        transform: translate(-0%, -0%);
+    }
+    div.contato{
+        transform: translate(-0%, -0%);
+    }
+    div.AnimeNanatsu{
+        height: 1080px;
+    }
+    footer{
+        transform: translate(-100%, 100%);
+        grid-area: content;
+        place-items: center;
+        justify-items: center;
+        width: 640px;
+        padding-left: 30px;
+        padding-top: 0%;
+        font-size: 1.3rem;
+        
+
+    }
+    p.copyright{
+        
+        grid-area: content;
+        
+        
+        
+        
+    }
+}

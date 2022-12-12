@@ -1,0 +1,150 @@
+.Anime{
+    height: 825px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(../img/footer.jpg);
+}
+.AnimeNanatsu{
+    height: 825px;
+}
+.anime_titulo{
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 200px;
+    padding-left: 700px;
+    padding-top: 40px;
+    font-family: Deutsch Gothic;
+}
+.onde_assistir{
+    transform: translate(70%, 20%);
+    background-color: #252525;
+    height: 400px;
+    width: 500px;
+}
+.contato{
+    transform: translate(210%, -80%);
+    background-color: #252525;
+    height: 400px;
+    width: 500px;
+}
+.onde_assistir_title{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    color: #42FF00;
+    font-size: 64px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.Crunchyroll{
+    
+color: #FF9900;
+font-size: 64px;
+padding-left: 40px;
+padding-top: 40px;
+
+}
+.action_crunchyroll{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+}
+.Netflix{
+color: #FF0000;
+font-size: 64px;
+padding-left: 40px;
+padding-top: 40px;
+}
+.action_netflix{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+}
+.contato_title{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    color: #FA00FF;
+    font-size: 64px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.numero{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.numero_escrita{
+ font-size: 24px;
+ padding-left: 10px;
+ text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.email{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.email_escrita{
+    font-size: 24px;
+    padding-left: 10px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.endereco{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.endereco_escrita{
+    font-size: 24px;
+    padding-left: 10px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    
+    font-family: 'Montserrat', sans-serif;
+}

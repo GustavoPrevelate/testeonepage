@@ -1,0 +1,40 @@
+.NanatsuNoTaizai{
+    height: 1080px;
+    width: 100%;
+    background-image: url(../img/inicio.jpg);
+}
+.the_seven{
+    height: 1080px;
+}
+.the_seven_titulo{
+    transform: translate(215%, 70%);
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: #252525c0;
+    color: #FF005C;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 48px;
+    font-family: Deutsch Gothic;
+    padding-top: 16px;
+    padding-left: 16px;     
+}
+.description__text{
+    transform: translate(280%, -15%);
+    display: flex;
+    height: 400px;
+    width: 400px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+
+}

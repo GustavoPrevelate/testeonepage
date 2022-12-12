@@ -1,0 +1,224 @@
+.TheSevenDeadly{
+    height: 1080;
+    background-color: #E20000;
+    
+}
+.TheSevenDeadlySins{
+    height: 150px;
+    background-color: #E20000;
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 80px;
+    padding-left: 580px;
+    padding-top: 30px;
+}
+.blocos{
+    background-color: #252525;
+    display: grid;
+    grid-template-columns: 480px 480px 480px 480px;
+    grid-template-rows: 392px 392px 392px 392px;
+}
+
+.meliodas_title{
+    font-size: 64px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: #FFC700;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.ira{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.King_title{
+    font-size: 64px;
+    padding-left: 180px;
+    padding-top: 30px;
+    color: #24FF00;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.preguica{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Ban_title{
+    font-size: 64px;
+    padding-left: 180px;
+    padding-top: 30px;
+    color: #FF0F00;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.ganancia{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Gowther_title{
+    font-size: 64px;
+    padding-left: 160px;
+    padding-top: 20px;
+    color: #FF00B8;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.luxuria{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Elizabeth_title{
+    font-size: 64px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: #FFFFFF;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.divina{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Diane_title{
+    font-size: 64px;
+    padding-left: 180px;
+    padding-top: 30px;
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.inveja{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Escanor_title{
+    font-size: 64px;
+    padding-left: 140px;
+    padding-top: 30px;
+    color: #DBFF00;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.orgulho{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Merlim_title{
+    font-size: 64px;
+    padding-left: 180px;
+    padding-top: 30px;
+    color: #DB00FF;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.gula{
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
